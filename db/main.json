@@ -1,0 +1,88 @@
+{
+    "path": {
+        "route": [
+            {
+                "name": "<名称なし>",
+                "p": [
+                    {
+                        "type": "circle",
+                        "x": -8,
+                        "z": -2007,
+                        "long": 180
+                    }
+                ],
+                "size": 1,
+                "description": "",
+                "editable": true
+            },
+            {
+                "name": "<名称なし>",
+                "p": [
+                    {
+                        "type": "path",
+                        "x": -8,
+                        "z": -2607,
+                        "long": -8,
+                        "long2": -1309
+                    }
+                ],
+                "size": 1,
+                "description": "",
+                "editable": true
+            }
+        ],
+        "expwy": [],
+        "railway": []
+    },
+    "region": [
+        {
+            "name": "スポーン特別区",
+            "p": [
+                {
+                    "type": "circle",
+                    "x": -8,
+                    "z": -2007,
+                    "long": 1416
+                }
+            ],
+            "description": "基本的に自由に建築ができるスポーンの周辺地域。",
+            "editable": true
+        }
+    ],
+    "building": [
+        {
+            "name": "Spawn",
+            "p": {
+                    "x": -8,
+                    "z": -2007
+            },
+            "description": "スポーン地点にある建造物。中心には多岐にわたるアイテム(?)のショップがある。最寄り駅はスポーン地下鉄スポーン駅。",
+            "editable": true,
+            "type": "spawn"
+        },
+        {
+            "name": "世界政府本部",
+            "p": {
+                    "x": -118,
+                    "z": -2340
+            },
+            "description": "サーバー内の地域や国をまとめサーバーの安定を維持するための機構「世界政府」の本部。",
+            "editable": true,
+            "type": "gov"
+        },
+        {
+            "name": "スポーン駅",
+            "p": {
+                    "x": 179,
+                    "z": -2204
+            },
+            "description": "スポーンから最も近い駅、",
+            "editable": true,
+            "type": "station",
+            "train": [
+                "スポーン地下鉄"
+            ]
+        }
+    ],
+    "terrain": []
+}
